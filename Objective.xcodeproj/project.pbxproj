@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A867A84241FDCC30021FAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A867A83241FDCC30021FAD5 /* main.m */; };
+		1A867A8B241FDD410021FAD5 /* LSILog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A867A8A241FDD400021FAD5 /* LSILog.m */; };
+		1A867A8F241FE04D0021FAD5 /* SyntaxBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A867A8E241FE04D0021FAD5 /* SyntaxBasics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		1A867A80241FDCC30021FAD5 /* Objective */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Objective; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A867A83241FDCC30021FAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A867A8A241FDD400021FAD5 /* LSILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSILog.m; sourceTree = "<group>"; };
+		1A867A8C241FDD450021FAD5 /* LSILog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSILog.h; sourceTree = "<group>"; };
+		1A867A8D241FE04D0021FAD5 /* SyntaxBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxBasics.h; sourceTree = "<group>"; };
+		1A867A8E241FE04D0021FAD5 /* SyntaxBasics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxBasics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				1A867A83241FDCC30021FAD5 /* main.m */,
+				1A867A8D241FE04D0021FAD5 /* SyntaxBasics.h */,
+				1A867A8E241FE04D0021FAD5 /* SyntaxBasics.m */,
+				1A867A8A241FDD400021FAD5 /* LSILog.m */,
+				1A867A8C241FDD450021FAD5 /* LSILog.h */,
 			);
 			path = Objective;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A867A8F241FE04D0021FAD5 /* SyntaxBasics.m in Sources */,
 				1A867A84241FDCC30021FAD5 /* main.m in Sources */,
+				1A867A8B241FDD410021FAD5 /* LSILog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
